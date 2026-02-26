@@ -211,6 +211,15 @@ h3{
   color:var(--primary-dark);
 }
 
+.video-player{
+  width:100%;
+  max-width:800px;     /* largeur max raisonnable */
+  display:block;
+  margin:20px auto 0;  /* centre la vidéo */
+  border-radius:14px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.12);
+}
+
 .badge{
   background:var(--primary-soft);
   padding:4px 10px;
