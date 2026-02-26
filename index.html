@@ -1,0 +1,534 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mini-Guide Word (pédagogique) — Mise en forme propre et efficace</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+<header>
+  <div class="wrap">
+    <div class="hero">
+      <h1>Mini-Guide Microsoft Word — Mise en forme propre (et sans prise de tête)</h1>
+      <p class="subtitle">
+        Objectif : apprendre les <strong>bons réflexes</strong> pour structurer un document Word (rapport, mémoire, contrat, etc.)
+        sans bricoler avec des espaces/retours à la ligne. Chaque section contient une mini théorie + des pas-à-pas + un emplacement
+        pour ta capsule vidéo.
+      </p>
+
+      <div class="chips" aria-label="Niveaux">
+        <div class="chip">Niveau 0 : Avant de commencer</div>
+        <div class="chip">Niveau 1 : Fondamentaux</div>
+        <div class="chip">Niveau 2 : Structuration & styles</div>
+        <div class="chip">Niveau 3 : Documents longs</div>
+        <div class="chip">Bonus : astuces & hygiène</div>
+      </div>
+
+      <div class="toc" aria-label="Sommaire HTML">
+        <a href="#niveau0">0) Avant de commencer</a>
+        <a href="#niveau1">1) Fondamentaux <span>alignements, tabulations, guillemets…</span></a>
+        <a href="#niveau2">2) Structurer un document <span>listes, images, tableaux, légendes…</span></a>
+        <a href="#niveau3">3) Documents longs <span>page de garde, sections, pagination, TOC…</span></a>
+        <a href="#bonus">4) Bonus & erreurs fréquentes <span>petits pièges qui cassent tout</span></a>
+        <a href="#checklist">Checklist finale <span>avant d’envoyer le document</span></a>
+      </div>
+
+      <p class="mini">
+        💡 Astuce : dans Word, <strong>les espaces</strong> et <strong>les retours à la ligne</strong> ne servent pas à “dessiner” la mise en page.
+        On utilise plutôt : <strong>Styles</strong>, <strong>Alignement</strong>, <strong>Tabulations</strong>, <strong>Sauts</strong>,
+        <strong>Légendes</strong>, <strong>Sections</strong>.
+      </p>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+
+    <!-- ===================== -->
+    <!-- NIVEAU 0 -->
+    <!-- ===================== -->
+
+    <section id="niveau0">
+      <h2>0) Avant de commencer</h2>
+
+      <h3>0.1 Afficher les marques de mise en forme (¶) pour diagnostiquer</h3>
+
+      <div class="card">
+        <p><strong>Pourquoi :</strong> pour repérer les espaces multiples, tabulations, sauts de page/section, retours paragraphe…</p>
+        <ol class="steps">
+          <li>Onglet <em>Accueil</em> → clique sur <strong>¶</strong> (Afficher/Masquer).</li>
+          <li>Corrige : espaces en trop, retours à la ligne abusifs, etc.</li>
+        </ol>
+        <div class="tip">
+          C’est un “scanner” anti-bricolage. Très utile quand quelqu’un a mis 20 retours ligne.
+        </div>
+      </div>
+
+      <div class="video-slot">
+        <div class="label">🎬 Capsule vidéo <span class="badge">Bonus</span> <span class="badge">2 min</span></div>
+        <div class="placeholder">
+          Démonstration : activer ¶ → repérer espaces multiples, retours ligne, sauts, tabulations.
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== -->
+    <!-- NIVEAU 1 -->
+    <!-- ===================== -->
+
+    <section id="niveau1">
+      <h2>1) Niveau 1 — Fondamentaux (à apprendre en premier)</h2>
+      <p class="muted">
+        Ce niveau corrige les erreurs qui rendent un document “instable” (tout bouge dès qu’on modifie une phrase).
+      </p>
+
+      <!-- Justifier -->
+      <h3>1.1 Justifier le texte</h3>
+
+      <div class="grid two">
+        <div class="do">
+          <strong>✅ À faire</strong>
+          <ol class="steps">
+            <li>Sélectionne les paragraphes.</li>
+            <li>Accueil → <strong>Justifier</strong>.</li>
+            <li>Relis.</li>
+          </ol>
+        </div>
+
+        <div class="dont">
+          <strong>❌ À éviter</strong>
+          <ul class="steps">
+            <li>Ajouter des espaces pour “faire joli”.</li>
+            <li>Laisser aligné à gauche dans un rapport formel.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="video-slot">
+        <div class="label">🎬 Capsule vidéo <span class="badge">N1</span> <span class="badge">1–2 min</span></div>
+        <div class="placeholder">
+          Démonstration : sélectionner plusieurs paragraphes → appliquer "Justifier".
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ===================== -->
+    <!-- NIVEAU 2 -->
+    <!-- ===================== -->
+    <section id="niveau2">
+      <h2>2) Niveau 2 — Structurer (listes, images, tableaux…)</h2>
+      <p class="muted">Ici, on apprend à faire “comme Word aime” : listes automatiques, légendes, tableaux propres, etc.</p>
+
+      <!-- 2.1 Listes ordonnées -->
+      <h3>2.1 Faire une liste ordonnée (au lieu de numéroter à la main)</h3>
+      <div class="grid two">
+        <div class="do">
+          <strong>✅ À faire</strong>
+          <ol class="steps">
+            <li>Place ton curseur là où commence la liste.</li>
+            <li><em>Accueil</em> → clique <strong>Liste numérotée</strong> (1., 2., 3.).</li>
+            <li>Appuie sur <span class="kbd">Entrée</span> pour ajouter un nouvel item.</li>
+            <li>Pour terminer la liste : <span class="kbd">Entrée</span> deux fois.</li>
+          </ol>
+          <div class="tip">Word gère automatiquement la numérotation : si tu ajoutes un item, tout se renumérote.</div>
+        </div>
+        <div class="dont">
+          <strong>❌ À éviter</strong>
+          <ul class="steps">
+            <li>Taper “1. Définitions”, puis “2. …” manuellement.</li>
+            <li>Corriger ensuite toutes les numérotations à la main quand tu changes l’ordre.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="quiz">
+        <h4>🎯 Mini-jeu : “La liste intelligente”</h4>
+        <p>Tu veux insérer un nouvel élément entre 2 et 3. Avec une liste Word, que se passe-t-il ?</p>
+        <details>
+          <summary>Voir la réponse</summary>
+          <p>Word renumérote automatiquement : l’ancien 3 devient 4, etc. (magie propre).</p>
+        </details>
+      </div>
+
+      <div class="video-slot">
+        <div class="label">🎬 Capsule vidéo <span class="badge">N2</span> <span class="badge">2 min</span></div>
+        <div class="placeholder">Démonstration : liste numérotée → insertion d’un item au milieu → renumérotation automatique.</div>
+      </div>
+
+      <!-- 2.2 Listes à plusieurs niveaux -->
+      <h3>2.2 Créer une liste à plusieurs niveaux (1 / 1.1 / 1.1.1)</h3>
+      <div class="card">
+        <p><strong>Quand l’utiliser :</strong> plans, chapitres, sous-sections, procédures.</p>
+        <ol class="steps">
+          <li><em>Accueil</em> → <strong>Liste à plusieurs niveaux</strong>.</li>
+          <li>Choisis un modèle (ex. 1 → 1.1 → 1.1.1).</li>
+          <li><span class="kbd">Tab</span> = descendre d’un niveau ; <span class="kbd">Maj</span>+<span class="kbd">Tab</span> = remonter.</li>
+        </ol>
+        <div class="warning">Évite de simuler des niveaux avec des espaces. Utilise Tab/Maj+Tab.</div>
+      </div>
+
+      <div class="video-slot">
+        <div class="label">🎬 Capsule vidéo <span class="badge">N2</span> <span class="badge">2–3 min</span></div>
+        <div class="placeholder">Démonstration : activer liste multilevel → Tab/Maj+Tab → obtenir 1 / 1.1 / 1.1.1.</div>
+      </div>
+
+      <!-- 2.3 Liste personnalisée Annexe 1 -->
+      <h3>2.3 Liste personnalisée (ex. “Annexe 1”, “Annexe 2”…)</h3>
+      <div class="grid two">
+        <div class="card">
+          <p><strong>Objectif :</strong> obtenir une numérotation automatique avec un texte fixe devant.</p>
+          <ol class="steps">
+            <li>Crée une liste numérotée.</li>
+            <li>Ouvre les options de numérotation (menu de la liste numérotée).</li>
+            <li>Choisis <strong>Définir un nouveau format de nombre</strong>.</li>
+            <li>Dans “Format”, ajoute le texte : <strong>Annexe</strong> + espace avant le numéro.</li>
+          </ol>
+        </div>
+        <div class="card">
+          <p><strong>Bonus :</strong> tu peux aussi choisir le style de numéro (1,2,3 / A,B,C / i,ii,iii).</p>
+          <div class="tip">
+            Très utile pour : Annexes, Figures, Étapes d’un protocole, “Exercice 1”, “Exercice 2”, etc.
+          </div>
+        </div>
+      </div>
+
+      <div class="video-slot">
+        <div class="label">🎬 Capsule vidéo <span class="badge">N2</span> <span class="badge">3 min</span></div>
+        <div class="placeholder">Démonstration : “Définir un nouveau format de nombre” → taper “Annexe ” avant le numéro.</div>
+      </div>
+
+      <!-- 2.4 Insérer image + légende -->
+      <h3>2.4 Insérer une image proprement + ajouter une légende (Figure 1…)</h3>
+      <div class="grid two">
+        <div class="do">
+          <strong>✅ Méthode propre</strong>
+          <ol class="steps">
+            <li><em>Insertion</em> → <strong>Images</strong> → choisis ton fichier.</li>
+            <li>Clique l’image → choisis un habillage simple (souvent <strong>Aligné sur le texte</strong> pour éviter que tout bouge).</li>
+            <li>Ajoute une légende : clic droit → <strong>Insérer une légende</strong>.</li>
+            <li>Choisis l’étiquette : <strong>Figure</strong> (ou crée une étiquette si besoin).</li>
+          </ol>
+          <div class="tip">
+            Avec les légendes, tu peux générer automatiquement une <strong>liste d’illustrations</strong>.
+          </div>
+        </div>
+        <div class="dont">
+          <strong>❌ À éviter</strong>
+          <ul class="steps">
+            <li>Copier-coller l’image puis écrire “Figure 1 : …” à la main (tu vas perdre la cohérence).</li>
+            <li>Mettre l’image “devant le texte” et la déplacer au millimètre (ça saute à l’impression).</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="video-slot">
+        <div class="label">🎬 Capsule vidéo <span class="badge">N2</span> <span class="badge">3–4 min</span></div>
+        <div class="placeholder">Démonstration : insertion → options d’habillage → “Insérer une légende” → renumérotation.</div>
+      </div>
+
+      <!-- 2.5 Tableaux + légende + répéter ligne -->
+      <h3>2.5 Créer un tableau propre + légende + répétition de l’en-tête</h3>
+      <div class="card">
+        <p><strong>Créer un tableau :</strong> <em>Insertion</em> → <strong>Tableau</strong> → choisis le nombre de lignes/colonnes.</p>
+
+        <div class="grid two">
+          <div class="do">
+            <strong>✅ Bonnes pratiques</strong>
+            <ol class="steps">
+              <li>Évite les tableaux “dessinés” à la main avec des traits : utilise l’outil Tableau.</li>
+              <li>Ajoute une <strong>ligne d’en-tête</strong> claire (titres de colonnes).</li>
+              <li>Ajoute une légende : clic droit sur le tableau → <strong>Insérer une légende</strong> (étiquette : Tableau).</li>
+            </ol>
+          </div>
+          <div class="dont">
+            <strong>❌ À éviter</strong>
+            <ul class="steps">
+              <li>Faire un tableau avec des tabulations ou des espaces.</li>
+              <li>Écrire “Tableau 3 : …” à la main.</li>
+            </ul>
+          </div>
+        </div>
+
+        <h4 style="margin:14px 0 8px;">Répéter la première ligne sur chaque page (si le tableau continue)</h4>
+        <ol class="steps">
+          <li>Sélectionne la <strong>première ligne</strong> (la ligne d’en-tête).</li>
+          <li>Onglet <em>Disposition</em> (Outils de tableau) → clique <strong>Répéter les lignes d’en-tête</strong>.</li>
+        </ol>
+
+        <h4 style="margin:14px 0 8px;">Centrer horizontalement / verticalement dans les cellules</h4>
+        <ol class="steps">
+          <li>Sélectionne les cellules concernées.</li>
+          <li>Outils de tableau → <em>Disposition</em> → groupe <strong>Alignement</strong>.</li>
+          <li>Choisis l’icône : centré, haut-gauche, bas-droite, etc.</li>
+        </ol>
+
+        <div class="tip">
+          Règle d’or : un tableau doit rester <strong>lisible</strong> même imprimé en noir et blanc.
+        </div>
+      </div>
+
+      <div class="video-slot">
+        <div class="label">🎬 Capsule vidéo <span class="badge">N2</span> <span class="badge">4–5 min</span></div>
+        <div class="placeholder">Démonstration : créer tableau → “Insérer une légende” → répéter en-tête → alignement vertical/horizontal.</div>
+      </div>
+    </section>
+
+    <!-- ===================== -->
+    <!-- NIVEAU 3 -->
+    <!-- ===================== -->
+    <section id="niveau3">
+      <h2>3) Niveau 3 — Documents longs (sections, pagination, sommaires…)</h2>
+      <p class="muted">C’est ici que Word devient “puissant”. Si tu maîtrises ça, tu peux mettre en forme un mémoire complet.</p>
+
+      <!-- 3.1 Saut de page / section -->
+      <h3>3.1 Saut de page / saut de section (au lieu de 15 retours à la ligne)</h3>
+      <div class="grid two">
+        <div class="do">
+          <strong>✅ Saut de page</strong>
+          <ol class="steps">
+            <li>Place le curseur où tu veux couper.</li>
+            <li><span class="kbd">Ctrl</span> + <span class="kbd">Entrée</span> (raccourci le plus simple).</li>
+            <li>Ou <em>Insertion</em>/<em>Mise en page</em> → <strong>Saut de page</strong> (selon version).</li>
+          </ol>
+          <div class="tip">Le saut de page garde la structure même si tu ajoutes du texte au-dessus.</div>
+        </div>
+        <div class="card">
+          <p><strong>✅ Saut de section</strong> (quand tu veux changer : numérotation, en-tête/pied, marges, orientation…)</p>
+          <ol class="steps">
+            <li><em>Mise en page</em> → <strong>Sauts</strong> → <strong>Saut de section</strong> (Page suivante).</li>
+            <li>Ensuite seulement : change la pagination / en-tête / orientation pour cette section.</li>
+          </ol>
+          <div class="warning">
+            Si tu veux “Page 1 sans numéro, puis pagination à partir de l’intro”, tu as presque toujours besoin d’un <strong>saut de section</strong>.
+          </div>
+        </div>
+      </div>
+
+      <div class="video-slot">
+        <div class="label">🎬 Capsule vidéo <span class="badge">N3</span> <span class="badge">4 min</span></div>
+        <div class="placeholder">Démonstration : Ctrl+Entrée vs retours ligne → saut de section → effet sur en-tête/pagination.</div>
+      </div>
+
+      <!-- 3.2 Marges -->
+      <h3>3.2 Définir les marges (une fois, proprement)</h3>
+      <div class="card">
+        <ol class="steps">
+          <li><em>Mise en page</em> → <strong>Marges</strong>.</li>
+          <li>Choisis un preset (Normal, Étroit…) ou <strong>Marges personnalisées</strong>.</li>
+          <li>Si certaines pages doivent avoir d’autres marges : crée d’abord un <strong>saut de section</strong>, puis applique sur la section.</li>
+        </ol>
+        <div class="tip">Toujours vérifier l’exigence (université, entreprise, norme) avant de fixer les marges.</div>
+      </div>
+
+      <div class="video-slot">
+        <div class="label">🎬 Capsule vidéo <span class="badge">N3</span> <span class="badge">2–3 min</span></div>
+        <div class="placeholder">Démonstration : Marges → personnalisées → application à tout le document vs section.</div>
+      </div>
+
+      <!-- 3.3 Styles : appliquer + configurer -->
+      <h3>3.3 Styles : appliquer un style et le configurer (la clé de tout)</h3>
+      <div class="grid two">
+        <div class="card">
+          <p><strong>À quoi ça sert ?</strong> Les styles contrôlent la mise en forme <em>et</em> alimentent la table des matières.</p>
+          <table class="table" role="table" aria-label="Exemples de styles">
+            <thead>
+              <tr><th>Élément</th><th>Style conseillé</th><th>Pourquoi</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Titre de chapitre</td><td>Titre 1</td><td>Table des matières niveau 1</td></tr>
+              <tr><td>Sous-section</td><td>Titre 2</td><td>TOC niveau 2</td></tr>
+              <tr><td>Paragraphe normal</td><td>Normal</td><td>Uniformité (police, interligne…)</td></tr>
+              <tr><td>Légende figure/tableau</td><td>Légende</td><td>Liste d’illustrations automatique</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="do">
+          <strong>✅ Comment appliquer & modifier un style</strong>
+          <ol class="steps">
+            <li>Sélectionne le texte (ex. un titre).</li>
+            <li>Onglet <em>Accueil</em> → clique le style (ex. <strong>Titre 1</strong>).</li>
+            <li>Pour modifier : clic droit sur le style → <strong>Modifier</strong>.</li>
+            <li>Règles : police, taille, couleur, <strong>espaces avant/après</strong>, interligne, etc.</li>
+            <li>Choisis “Appliquer à ce document” (ou au modèle si nécessaire).</li>
+          </ol>
+          <div class="tip">
+            Si tu changes un style, <strong>tout le document</strong> se met à jour. C’est le super-pouvoir Word.
+          </div>
+        </div>
+      </div>
+
+      <div class="video-slot">
+        <div class="label">🎬 Capsule vidéo <span class="badge">N3</span> <span class="badge">5 min</span></div>
+        <div class="placeholder">Démonstration : appliquer Titre 1/Titre 2 → modifier style (espaces avant/après) → effet global.</div>
+      </div>
+
+      <!-- 3.4 Créer un résumé / table des matières / liste des illustrations -->
+      <h3>3.4 Résumé, Table des matières, Liste des illustrations (automatiques)</h3>
+      <div class="card">
+        <p><strong>Avant de générer :</strong> assure-toi que tes titres utilisent <strong>Titre 1, Titre 2, Titre 3</strong> (pas du texte en gras “fait à la main”).</p>
+
+        <h4 style="margin:12px 0 8px;">Table des matières</h4>
+        <ol class="steps">
+          <li>Place le curseur à l’emplacement du sommaire.</li>
+          <li><em>Références</em> → <strong>Table des matières</strong> → choisis un modèle.</li>
+          <li>Quand tu modifies le document : clic droit sur la table → <strong>Mettre à jour le champ</strong>.</li>
+        </ol>
+
+        <h4 style="margin:12px 0 8px;">Liste des illustrations (figures / tableaux)</h4>
+        <ol class="steps">
+          <li>Assure-toi que chaque figure/tableau a une <strong>légende</strong> via “Insérer une légende”.</li>
+          <li><em>Références</em> → <strong>Insérer une table des illustrations</strong>.</li>
+          <li>Mettre à jour quand nécessaire.</li>
+        </ol>
+
+        <div class="tip">
+          Le “Résumé” dépend souvent de ton modèle. Le plus important : le style (Titre/Normal) + une mise en page propre.
+        </div>
+      </div>
+
+      <div class="video-slot">
+        <div class="label">🎬 Capsule vidéo <span class="badge">N3</span> <span class="badge">4–6 min</span></div>
+        <div class="placeholder">Démonstration : titres avec styles → insertion table des matières → insertion liste des illustrations → mise à jour.</div>
+      </div>
+
+      <!-- 3.5 Page de garde -->
+      <h3>3.5 Page de garde : créer et éditer proprement</h3>
+      <div class="grid two">
+        <div class="card">
+          <p><strong>Méthode simple :</strong> utiliser une page de garde prédéfinie, puis l’adapter.</p>
+          <ol class="steps">
+            <li><em>Insertion</em> → <strong>Page de garde</strong>.</li>
+            <li>Choisis un modèle.</li>
+            <li>Clique dans chaque zone (titre, auteur, date…) et remplace.</li>
+          </ol>
+        </div>
+        <div class="card">
+          <p><strong>Bon réflexe :</strong> la page de garde a souvent des contraintes :</p>
+          <ul class="steps">
+            <li>Pas de numéro de page visible (souvent).</li>
+            <li>Marges ou disposition spécifique.</li>
+            <li>Logo + alignements propres (sans espaces).</li>
+          </ul>
+          <div class="warning">
+            Si la page de garde doit avoir une mise en page différente du reste, utilise un <strong>saut de section</strong>.
+          </div>
+        </div>
+      </div>
+
+      <div class="video-slot">
+        <div class="label">🎬 Capsule vidéo <span class="badge">N3</span> <span class="badge">3–4 min</span></div>
+        <div class="placeholder">Démonstration : insérer page de garde → modifier champs → gérer numéro de page via section.</div>
+      </div>
+
+      <!-- 3.6 Pagination par sections -->
+      <h3>3.6 Pagination : gérer les numéros de page par sections</h3>
+      <div class="card">
+        <p><strong>Objectif courant :</strong> page de garde sans numéro → intro commence à 1 → annexes en A-1 ou autre.</p>
+
+        <ol class="steps">
+          <li>Crée des <strong>sauts de section</strong> aux endroits où la pagination change.</li>
+          <li>Dans l’en-tête/pied de page, désactive <strong>Lier au précédent</strong> si tu veux une pagination différente.</li>
+          <li>Insère le numéro : <em>Insertion</em> → <strong>Numéro de page</strong>.</li>
+          <li>Format : <em>Numéro de page</em> → <strong>Format des numéros</strong> → choisir (1,2,3 / i,ii,iii…).</li>
+          <li>Choisis “Commencer à : 1” si nécessaire.</li>
+        </ol>
+
+        <div class="tip">Quand ça devient confus : affiche les marques de mise en forme (¶) pour voir les sauts de section/page.</div>
+      </div>
+
+      <div class="video-slot">
+        <div class="label">🎬 Capsule vidéo <span class="badge">N3</span> <span class="badge">6–8 min</span></div>
+        <div class="placeholder">Démonstration : saut de section → “lier au précédent” → commencer à 1 → formats romains.</div>
+      </div>
+    </section>
+
+    <!-- ===================== -->
+    <!-- BONUS -->
+    <!-- ===================== -->
+    <section id="bonus">
+      <h2>4) Bonus — Petites erreurs “invisibles” qui ruinent la mise en forme</h2>
+      <h3>4.1 Espaces & retours : règle d’or</h3>
+      <div class="grid two">
+        <div class="do">
+          <strong>✅ À faire</strong>
+          <ul class="steps">
+            <li>1 espace entre les mots (pas 2, pas 5).</li>
+            <li>1 retour de paragraphe pour finir un paragraphe (pas 6).</li>
+            <li>Un <strong>saut de page</strong> pour changer de page.</li>
+          </ul>
+        </div>
+        <div class="dont">
+          <strong>❌ À éviter</strong>
+          <ul class="steps">
+            <li>“Dessiner” le document avec des espaces.</li>
+            <li>“Aller à la page suivante” avec des retours à la ligne.</li>
+          </ul>
+        </div>
+      </div>
+
+      <h3>4.2 (Ajout conseillé) Utiliser “Reproduire la mise en forme” intelligemment</h3>
+      <div class="card">
+        <p><strong>Quand :</strong> tu veux appliquer exactement la même mise en forme à un autre passage.</p>
+        <ol class="steps">
+          <li>Sélectionne le texte bien formaté.</li>
+          <li>Clique sur <strong>Reproduire la mise en forme</strong> (pinceau).</li>
+          <li>Survole/sélectionne le texte à corriger.</li>
+        </ol>
+        <div class="tip">Double-clic sur le pinceau = tu peux l’appliquer plusieurs fois.</div>
+      </div>
+
+      <div class="video-slot">
+        <div class="label">🎬 Capsule vidéo <span class="badge">Bonus</span> <span class="badge">1–2 min</span></div>
+        <div class="placeholder">Démonstration : pinceau simple vs double-clic → appliquer à plusieurs paragraphes.</div>
+      </div>
+    </section>
+
+    <!-- ===================== -->
+    <!-- CHECKLIST -->
+    <!-- ===================== -->
+    <section id="checklist">
+      <h2>Checklist finale — Avant d’envoyer le document</h2>
+
+      <div class="card">
+        <ol class="steps">
+          <li>✅ Le texte principal est <strong>justifié</strong> (si requis).</li>
+          <li>✅ Aucun “centrage” fait avec des <strong>espaces</strong>.</li>
+          <li>✅ Retrait de première ligne géré via <strong>Paragraphe</strong> (pas espaces).</li>
+          <li>✅ Les listes sont de vraies <strong>listes Word</strong> (numérotées / multi-niveaux).</li>
+          <li>✅ Les changements de page se font avec <strong>saut de page</strong>.</li>
+          <li>✅ Les changements de règles (marges/pagination/en-tête) se font avec <strong>sauts de section</strong>.</li>
+          <li>✅ Images et tableaux ont des <strong>légendes</strong> via “Insérer une légende”.</li>
+          <li>✅ Les tableaux longs répètent la <strong>ligne d’en-tête</strong>.</li>
+          <li>✅ Les guillemets sont de vrais <strong>guillemets</strong> (pas &lt;&lt;&lt; ou &gt;&gt;&gt;).</li>
+          <li>✅ Les titres utilisent <strong>Titre 1/2/3</strong> → table des matières générée et mise à jour.</li>
+          <li>✅ Marges vérifiées (document entier ou par section).</li>
+          <li>✅ Marques ¶ vérifiées (pas de “pollution” : espaces multiples, retours abusifs).</li>
+        </ol>
+      </div>
+
+      <div class="quiz">
+        <h4>🏁 Défi final</h4>
+        <p>Si tu devais retenir une seule phrase pour Word :</p>
+        <details>
+          <summary>Voir la phrase</summary>
+          <p><strong>“Je mets en forme avec des règles (styles/paragraphes/sauts), pas avec des espaces et des retours à la ligne.”</strong></p>
+        </details>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>📌 Tu peux copier-coller ce fichier HTML dans ton éditeur ou l’ouvrir dans un navigateur pour l’utiliser comme support de formation.</p>
+  </div>
+</footer>
+
+</body>
+</html>
