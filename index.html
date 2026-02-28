@@ -24,17 +24,19 @@
 						<div class="chip">Bonus : astuces & hygiène</div>
 					</div>
 					<div class="toc" aria-label="Sommaire HTML">
-						<a href="#niveau0">0) Avant de commencer</a>
-						<a href="#niveau1">1) Fondamentaux <span>alignements, tabulations, guillemets…</span>
-						</a>
-						<a href="#niveau2">2) Structurer un document <span>listes, images, tableaux, légendes…</span>
-						</a>
-						<a href="#niveau3">3) Documents longs <span>page de garde, sections, pagination, TOC…</span>
-						</a>
-						<a href="#bonus">4) Bonus & erreurs fréquentes <span>petits pièges qui cassent tout</span>
-						</a>
-						<a href="#checklist">Checklist finale <span>avant d’envoyer le document</span>
-						</a>
+						<ol class="steps">
+							<li><a href="#niveau0">Avant de commencer</a></li>
+							<li><a href="#niveau1">Fondamentaux <span>alignements, tabulations, guillemets…</span>
+							</a></li>
+							<li><a href="#niveau2">Structurer un document <span>listes, images, tableaux, légendes…</span>
+							</a></li>
+							<li><a href="#niveau3">Documents longs <span>page de garde, sections, pagination, TOC…</span>
+							</a></li>
+							<li><a href="#bonus">Bonus & erreurs fréquentes <span>petits pièges qui cassent tout</span>
+							</a></li>
+							<li><a href="#checklist">Checklist finale <span>avant d’envoyer le document</span>
+							</a></li>
+						</ol>
 					</div>
 					<p class="mini">
 						💡 Astuce : dans Word, <strong>les espaces</strong> et <strong>les retours à la ligne</strong> ne servent pas à “dessiner” la mise en page.
@@ -92,7 +94,7 @@
 								<li>Identifier les retours à la ligne multiples.</li>
 								<li>Repérer les espaces ajoutés manuellement.</li>
 								<li>Détecter les tabulations invisibles.</li>
-								<li>Comprendre pourquoi un paragraphe ne remonte pas (saut de page invisible).</li>
+								<li>Comprendre pourquoi un paragraphe ne remonte pas (saut de page ou de section invisible).</li>
 							</ul>
 						</div>
 						<div class="summary-block">
@@ -112,7 +114,7 @@
 								<li><strong>•</strong> (points) → Espaces tapés au clavier.</li>
 								<li><strong>↵</strong> → Retour à la ligne simple.</li>
 								<li><strong>→</strong> → Tabulation.</li>
-								<li><strong>Saut de page</strong> → Forcer le contenu suivant à commencer sur une nouvelle page.</li>
+								<li><strong>Saut de page ou saut de section</strong> <i>(A voir ultérieurement)</i></li>
 							</ul>
 						</div>
 						<div class="summary-block">
@@ -271,10 +273,110 @@
 						</details>
 					</div>
 					<div class="video-slot">
-						<div class="label">🎬 Capsule vidéo <span class="badge">N2</span>
-							<span class="badge">2 min</span>
+						<div class="label">
+							🎬 Capsule vidéo <span class="badge">Listes ordonnées</span>
+							<span class="badge">12 min</span>
+							<br>
+							<span class="badge">Cliquer sur le rectangle en bas à droite pour lire en plein écran</span>
 						</div>
-						<div class="placeholder">Démonstration : liste numérotée → insertion d’un item au milieu → renumérotation automatique.</div>
+						<video class="video-player" controls preload="metadata">
+							<source src="capsules-video/capsule-video-2.mp4" type="video/mp4">
+							Votre navigateur ne supporte pas la lecture vidéo.
+						</video>
+					</div>
+					<div class="capsule-summary">
+					   <h4 class="summary-title">📘 Résumé de la capsule — La liste ordonnée (Word)</h4>
+					   <div class="summary-block">
+						  <h5>🎯 Objectif de la capsule</h5>
+						  <p>
+							 Comprendre ce qu’est une <strong>liste ordonnée</strong> dans Microsoft Word,
+							 savoir l’identifier dans un document existant, apprendre à ajouter ou supprimer
+							 des éléments dynamiquement, transformer une liste manuelle en liste ordonnée
+							 et créer une liste ordonnée à partir de zéro.
+						  </p>
+					   </div>
+					   <div class="summary-block">
+						  <h5>🧠 Définition</h5>
+						  <p>
+							 Une liste ordonnée est un <strong>outil dynamique</strong> de Word qui permet :
+						  </p>
+						  <ul>
+							 <li>D’énumérer des éléments suivant un ordre (1, 2, 3…).</li>
+							 <li>De structurer un document (chapitres, étapes, procédures…).</li>
+						  </ul>
+						  <p>
+							 Elle est dite <strong>dynamique</strong> car la numérotation se met à jour automatiquement
+							 lorsqu’on ajoute ou supprime des éléments.
+						  </p>
+					   </div>
+					   <div class="summary-block">
+						  <h5>🔎 Comment identifier une liste ordonnée ?</h5>
+						  <p>Deux méthodes simples :</p>
+						  <ol>
+							 <li>
+								<strong>Cliquer sur le numéro :</strong>  
+								si toute la ligne se sélectionne automatiquement, il s’agit d’une vraie liste ordonnée.
+							 </li>
+							 <li>
+								<strong>Faire un retour à la ligne (Entrée) :</strong>  
+								si le numéro suivant apparaît automatiquement, la liste est ordonnée.
+							 </li>
+						  </ol>
+						  <p class="summary-note">
+							 Attention : une liste peut sembler ordonnée visuellement (1, 2, 3…)
+							 mais être tapée manuellement. Dans ce cas, Word ne la reconnaît pas comme dynamique.
+						  </p>
+					   </div>
+					   <div class="summary-block">
+						  <h5>➕ Ajouter un élément dans une liste ordonnée</h5>
+						  <ol>
+							 <li>Se placer à la fin d’un élément.</li>
+							 <li>Appuyer sur <strong>Entrée</strong>.</li>
+							 <li>Le numéro suivant est généré automatiquement.</li>
+						  </ol>
+						  <p>
+							 Si un élément est inséré au milieu, tous les numéros suivants
+							 se mettent à jour automatiquement.
+						  </p>
+					   </div>
+					   <div class="summary-block">
+						  <h5>➖ Supprimer un élément</h5>
+						  <ol>
+							 <li>Sélectionner la ligne concernée.</li>
+							 <li>Appuyer sur <strong>Suppr</strong> ou <strong>Retour arrière</strong>.</li>
+						  </ol>
+						  <p>
+							 La numérotation s’actualise automatiquement.
+						  </p>
+					   </div>
+					   <div class="summary-block">
+						  <h5>🔁 Transformer une liste manuelle en liste ordonnée</h5>
+						  <ol>
+							 <li>Supprimer les numéros tapés manuellement.</li>
+							 <li>Sélectionner toutes les lignes concernées.</li>
+							 <li>
+								Onglet <strong>Accueil</strong> → Groupe <strong>Paragraphe</strong> →
+								bouton <strong>Liste numérotée</strong>.
+							 </li>
+						  </ol>
+					   </div>
+					   <div class="summary-block">
+						  <h5>🆕 Créer une liste ordonnée à partir de zéro</h5>
+						  <ol>
+							 <li>Placer le curseur à l’endroit souhaité.</li>
+							 <li>Cliquer sur <strong>Liste numérotée</strong> (onglet Accueil).</li>
+							 <li>Saisir le premier élément.</li>
+							 <li>Appuyer sur <strong>Entrée</strong> pour créer les suivants.</li>
+						  </ol>
+					   </div>
+					   <div class="summary-block">
+						  <h5>💡 À retenir</h5>
+						  <p>
+							 Une liste ordonnée est un outil <strong>automatique et intelligent</strong>.
+							 Ne jamais numéroter manuellement si l’on souhaite modifier,
+							 insérer ou supprimer des éléments facilement.
+						  </p>
+					   </div>
 					</div>
 					<!-- 2.2 Listes à plusieurs niveaux -->
 					<h3>2.2 Créer une liste à plusieurs niveaux (1 / 1.1 / 1.1.1)</h3>
